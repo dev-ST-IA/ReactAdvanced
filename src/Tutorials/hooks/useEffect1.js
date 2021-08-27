@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./index.css";
 
-function App() {
+function UseEffect1() {
   const [resourceType, setResourceType] = useState("posts");
   const [items, setItems] = useState([]);
 
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseEffect1;
