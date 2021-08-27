@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import "./index.css";
 
-export default function App() {
+export default function UseMemo() {
   const [number, setNumber] = useState(0);
   const [dark, setDark] = useState(false);
   const doubleNumber = useMemo(() => {
